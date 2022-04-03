@@ -597,6 +597,10 @@ footer hr{
     border-top-left-radius: 90px;
     background-color:#d6e4eb ;
   }
+  .imgheading{
+  width: 250px;
+  height: 250px;
+  }
 }
 
 /* ----- contact us page -----  */
