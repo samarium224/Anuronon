@@ -600,6 +600,14 @@ footer hr{
   .imgheading{
   width: 250px;
   height: 250px;
+  margin-top: 10px;
+  z-index: 5;
+  }
+  .text-box{
+  margin-top: -10%;
+  }
+  .headingtunu{
+  margin-top: -20%;
   }
 }
 
