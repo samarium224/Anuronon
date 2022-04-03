@@ -1,0 +1,276 @@
+<html>
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1.0">
+  <title>Anuronon-Memory Competition</title>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+  <link href="https://cdnjs.cloudflare.com/ajax/libs/simple-line-icons/2.4.1/css/simple-line-icons.min.css"
+    rel="stylesheet">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link href='https://fonts.googleapis.com/css?family=Baloo Bhai 2' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Bree Serif' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Heebo' rel='stylesheet'>
+  <link href='https://fonts.googleapis.com/css?family=Inter' rel='stylesheet'>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css" integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+  <link rel="stylesheet" href="CSS/style.css">
+  <link rel="stylesheet" href="css/style2.css">
+
+</head>
+
+<body>
+
+  <!-- ----- header ----- -->
+
+  <section class="sub-header">
+    <nav>
+      <a href="index.html"><img src="IMG/logo.png" alt="logo"></a>
+      <div class="nav-links" id="navLinks">
+        <i class="fa fa-times" onclick="hideMenu()"></i>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="exploreEvent.html">EVENT</a></li>
+          <!-- <li><a href="blog.html">BLOG</a></li> -->
+          <li><a href="faq.html">FAQ</a></li>
+          <li><a href="Contact.html">CONTACT</a></li>
+        </ul>
+      </div>
+      <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+    <h1 class="h1tag">Registration</h1>
+  </section>
+
+  <!-- ----- about us section ----- -->
+
+  <div class="registration-form">
+
+
+    <form name="google-sheet">
+      <div class="form-icon3">
+        <img src="img/mainlogo.png" id="img1" style="width:120px;" alt="logo">
+        <img src="img/logo.png" id="img2" style="width:130px;" alt="logo">
+      </div>
+      <br>
+      <br>
+      <br>
+      <br>
+      <h1 id="myid" style="text-align:center; font-style:Inter;">Memory Competition</h1>
+      <p style="text-align:center; font-style:Inter;">Registration</p>
+
+
+
+      <div class="mycls" style="font-style: Inter;">
+        <p>
+          <b>Enthoven Club</b> brings you national level event <b>Anuronon</b>! <br>
+          This event includes 4 different segments
+          <br>
+          So what are you waiting for! register yourself now.
+
+          The Event will be held at 12/13 May, 7:30 pm.
+          <br>
+          <b>Price Money</b>: 70000 
+          <br>
+          <b>Time</b>: 12 March, at 7:30 pm.
+          <br>
+
+        <p> 📅 <b>Registration Deadline </b>: 11 March, at 11:59 pm.</p>
+        <p><img class="bkashicon" src="IMG/bkash.svg" style="width:50px;"><b>Bkash Number </b>: 01*00000000</p>
+        <p><img class="bkashicon" src="IMG/nogod.svg" style="width:50px;"><b>Nogod Number </b>: 01*00000000</p>
+      </div>
+      <br>
+
+      <hr>
+      <input type="hidden" name="time" value="29 Mar 2022 - 01:29 AM">
+      <div class="form-group">
+        <input type="text" class="form-control item" id="name" name="name" placeholder="Enter your name" required>
+      </div>
+
+      <div class="form-group">
+        <input type="text" class="form-control item" id="email" name="email"
+          placeholder="Email(Make sure you write your email correctly)" required>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control item" id="text" name="institution" placeholder="Institution" required>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control item" id="text" name="Transaction-id" placeholder="Transaction-id" required>
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control item" id="text" name="Bkash-number" placeholder="Your Bkash Number" required>
+      </div>
+      <select name="segment" class="browser-default custom-select form-control item" required>
+        <option selected>Memory Competition</option>
+      </select>
+      <select name="department" class="browser-default custom-select form-control item" required>
+        <option selected>Department</option>
+        <option>CE</option>
+        <option>ME</option>
+        <option>AE</option>
+        <option>CSE</option>
+        <option>EECE</option>
+        <option>BME</option>
+        </option>
+        <option>NSE</option>
+        <option>IPE</option>
+        <option>NAME</option>
+        <option>PME</option>
+        <option>EWCE</option>
+        <option>Architecture</option>
+        <option>Other</option>
+      </select>
+
+      <select name="level" class="browser-default custom-select form-control item" required>
+        <option selected>Year/Level</option>
+        <option>1st year</option>
+        <option>2nd year</option>
+        <option>3rd year</option>
+        <option>4th year</option>
+        <option>Other</option>
+      </select>
+      <div class="form-group">
+        <input type="text" class="form-control item" name="studentId" id="number" placeholder="Student ID" required>
+      </div>
+
+      <div class="form-group">
+
+        <textarea class="form-control form-control item" name="questions" id="exampleFormControlTextarea3"
+          placeholder="If you have any question you want to ask, feel free to drop it here."
+          rows="4"></textarea>
+      </div>
+
+      <div class="form-group">
+        <button type="submit" class="btn btn-block create-account" onclick="sheet3()">Register</button>
+      </div>
+      <div id="msg"></div>
+    </form>
+
+  </div>
+
+
+
+
+<!-- ----- Footer ----- -->
+<footer>
+  <div class="row">
+    <div class="col">
+      <img src="IMG/logo.png" class="logo">
+      <p>MIST Einthoven Club was established in 2017 by the students of the Department of Biomedical Engineering (BME) of Military Institute of Science and Technology (MIST) </p>
+    </div>
+    <div class="col">
+      <h3>Contact</h3>
+        <div class="single-cta">
+          <i class="fas fa-map-marker-alt"></i>
+          <div class="cta-text">
+          <h4>Find us</h4>
+          <p>Mirpur Cantonment<br> Dhaka<br> Bangladesh </p><br>
+          </div>
+        </div>
+        <div class="single-cta">
+          <i class="far fa-envelope-open"></i>
+          <div class="cta-text">
+          <h4>Email Us</h4>
+          <p class="email-id">einthovenclub@gmail.com<br>
+          </div>
+        </div>
+      <div class="single-cta">
+        <i class="fas fa-phone"></i>
+        <div class="cta-text">
+          <h4>Call Us</h4>
+          <p>01303-788829</p>
+        </div>
+      </div>
+    </div>
+    <div class="col">
+      <h3>Useful links</h3>
+      <ul type="none">
+        <li><a href="index.html">HOME</a></li>
+        <li><a href="exploreEvent.html">EVENT</a></li>
+        <li><a href="faq.html">FAQ</a></li>
+        <li><a href="Contact.html">CONTACT</a></li>
+      </ul>
+    </div>
+    <div class="col">
+      <h3>Follow Us</h3>
+      <div class="social-icons">
+        <i class="fab fa-facebook-f"></i>
+        <i class="fab fa-twitter"></i>
+        <i class="fab fa-whatsapp"></i>
+        <i class="fab fa-pinterest"></i>
+      </div>
+    </div>
+  </div>
+  <hr>
+  <p class="copyright">© Copyright 2022 All Rights Reserved 
+    <a href="https://einthovenclub.mist.ac.bd/" class="mevlink">MIST EINTHOVEN CLUB</a></p>
+</footer>
+
+  <script>
+     var navLinks = document.getElementById("navLinks");
+
+  function hideMenu(){
+    navLinks.style.right="-200";
+  }
+  function showMenu(){
+    navLinks.style.right="0";
+  }
+
+
+    function sheet3() {
+      const scriptURL = 'https://script.google.com/macros/s/AKfycbyA4dftah8jeqclsr5NAZWFQ2Eir958h4WsJlqvjV12Ntd3gPt3lQa7EHSAV1PgeROe/exec'
+      const form = document.forms['google-sheet']
+
+      form.addEventListener('submit', e => {
+        e.preventDefault()
+        document.getElementById("msg").innerHTML = "Please wait....";
+        fetch("send_mail.php", { method: 'POST', body: new FormData(form) })
+        fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+          .then(response => {
+            alert2();
+            document.getElementById("msg").innerHTML = "Your Registration is done";
+            var frm = document.getElementsByName('google-sheet')[0];
+            frm.reset();  // Reset all form data
+            return false;
+
+          })
+          .catch(error => error1())
+      })
+
+    }
+
+
+
+    function alert2() {
+      swal({
+        title: "Thank you for registering.",
+        text: "Please check your mail for confirmation.",
+
+        icon: "success",
+        button: "Continue",
+      });
+    }
+
+
+
+
+
+
+    function error1() {
+      swal({
+        title: "Error",
+        text: "Please check Your network and try again",
+        icon: "warning",
+        button: "Continue",
+        dangerMode: true,
+      });
+    }
+  </script>
+  <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+  <script type="text/javascript"
+    src="https://cdnjs.cloudflare.com/ajax/libs/jquery.mask/1.14.15/jquery.mask.min.js"></script>
+  <script src="assets/js/script.js"></script>
+</body>
+
+</html>
